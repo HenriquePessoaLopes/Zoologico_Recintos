@@ -1,0 +1,23 @@
+{
+  "name": "recintos-zoo",
+  "version": "1.0.0",
+  "description": "Desafio Recintos do Zoo: em quais recintos um novo lote de animais pode ficar? API em Node.js com interface web.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "desafio",
+    "zoo",
+    "express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
